@@ -1,0 +1,16 @@
+root = true
+
+[*.cs]
+
+# Usar espacios en lugar de tabulaciones
+indent_style = space
+indent_size = 4
+
+# Codificación y final de línea
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+
+# Reglas básicas de C#
+dotnet_sort_system_directives_first = true
+csharp_new_line_before_open_brace = all
